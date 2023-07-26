@@ -135,15 +135,17 @@ img:hover{
 
 @media(max-width:480px){
     .container{
-        width: 90%;
+      width: 100%;
+      max-width: 90%;
+
     }
     .image{
         border-radius: 15px;
-        width: 290px;
-        position: relative;
-        left: 24px;
-        top: 25px;
-}
+        width: 100%;
+        max-width: 85%;
+        display: flex;
+        
+    }    
 
     .down{
         width: 80%;
@@ -152,11 +154,10 @@ img:hover{
     }
 
     .bottom{
-        position: relative;
-        left: 25px;
+        margin-left:3rem;
     }
     .paragraph{
-        letter-spacing: 1px;  
+        letter-spacing: 0.05rem;  
         text-align: left;
         font-size: 15px;
         color: hsl(214, 18%, 74%);
